@@ -1,0 +1,242 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+/* TopBar */
+.topbar {
+  background-color: #252B42;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #FFFFFF;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.topbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align vertically */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-item {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.topbar-icon {
+  margin-right: 5px;
+  color: #FFFFFF;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.social-icon {
+  margin-left: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.topbar-text {
+  font-weight: 600;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Spacing between text and icons */
+}
+
+.topbar-center {
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Header */
+header {
+  background-color: #FFFFFF;
+  padding: 15px 20px;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align vertically */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #252B42;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: 600;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+}
+
+.nav-actions a,
+.nav-actions button {
+  margin-left: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-actions .link {
+  text-decoration: none;
+  color: #23A6F0;
+}
+
+.nav-actions .cart i,
+.nav-actions .search i,
+.nav-actions .menu i {
+  font-size: 20px;
+  color: #23A6F0;
+  cursor: pointer;
+  background: none;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .topbar,
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Container and layout */
+/* Container with background image */
+/* Container with background image */
+.banner-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/shop.jpg'); /* Replace this with the actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Content */
+.content {
+  max-width: 50%;
+  margin-left: 200px;
+  margin-bottom: 200px;
+}
+
+/* Left and Right Arrow Styles */
+.left-arrow, .right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+;
+  color: white;
+
+
+  padding: 30px;
+  padding-bottom: 250px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+/* Text Styling */
+.season {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.shop-now-btn {
+  background-color: #32a852; /* Green button */
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
